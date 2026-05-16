@@ -33,7 +33,7 @@ export default function DealsPage() {
 
       <div className="mb-8">
         <h2 className="text-2xl font-bold font-outfit text-[#3E2723]">
-          Today's <span className="gradient-text">Deals</span>
+          Today&apos;s <span className="gradient-text">Deals</span>
         </h2>
         <p className="text-[#5D4037] mt-1">{DEALS.length} deals available</p>
       </div>

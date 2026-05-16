@@ -74,7 +74,7 @@ export default function HomePage() {
                   <span className="text-[#3E2723]">Space</span>
                 </h1>
                 <p className="text-lg text-[#5D4037] max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                  Premium dental supplies, equipment & materials — sourced from the world's best brands, delivered to your clinic's doorstep.
+                  Premium dental supplies, equipment & materials — sourced from the world&apos;s best brands, delivered to your clinic&apos;s doorstep.
                 </p>
               </div>
 
@@ -135,12 +135,12 @@ export default function HomePage() {
                   { label: "Products", value: "10K+", pos: "top-0 right-0" },
                   { label: "Brands", value: "200+", pos: "bottom-8 left-0" },
                   { label: "Clinics", value: "5K+", pos: "bottom-0 right-8" },
-                ].map(({ label, value, pos }) => (
+                ].map(({ label, value, pos }, i) => (
                   <motion.div
                     key={label}
                     className={`absolute ${pos} card-glass rounded-xl px-4 py-3 text-center border border-[#1B5E20]/15`}
                     animate={{ y: [0, -6, 0] }}
-                    transition={{ repeat: Infinity, duration: 3 + Math.random() * 2, ease: "easeInOut" }}
+                    transition={{ repeat: Infinity, duration: 3 + (i * 0.5), ease: "easeInOut" }}
                   >
                     <div className="text-lg font-bold gradient-text">{value}</div>
                     <div className="text-xs text-[#5D4037]">{label}</div>

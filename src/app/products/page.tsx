@@ -52,7 +52,7 @@ export default function ProductsPage() {
       prev.includes(b) ? prev.filter((x) => x !== b) : [...prev, b]
     );
 
-  const FilterPanel = () => (
+  const filterPanelContent = (
     <div className="space-y-8">
       {/* Price Range */}
       <div>
@@ -194,7 +194,7 @@ export default function ProductsPage() {
                 Clear All
               </button>
             </div>
-            <FilterPanel />
+            {filterPanelContent}
           </div>
         </aside>
 
@@ -247,7 +247,7 @@ export default function ProductsPage() {
               animate={{ opacity: 1, height: "auto" }}
               className="lg:hidden mb-6 card-glass rounded-xl p-6 overflow-hidden"
             >
-              <FilterPanel />
+              {filterPanelContent}
             </motion.div>
           )}
 

@@ -51,7 +51,7 @@ export default function TrackOrderPage() {
           
           <div className="mt-10 pt-8 border-t border-[#D7CEC3]/50">
             <p className="text-sm text-[#5D4037]">
-              Can't find your Order ID? Check the confirmation email sent to you, or <Link href="/contact" className="text-[#00796B] hover:text-[#1B5E20] font-medium underline underline-offset-4">contact support</Link>.
+              Can&apos;t find your Order ID? Check the confirmation email sent to you, or <Link href="/contact" className="text-[#00796B] hover:text-[#1B5E20] font-medium underline underline-offset-4">contact support</Link>.
             </p>
           </div>
         </div>

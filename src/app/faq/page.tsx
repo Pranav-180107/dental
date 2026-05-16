@@ -34,7 +34,7 @@ export default function FAQPage() {
     <PolicyLayout title="Frequently Asked Questions" lastUpdated="May 12, 2026">
       <div className="space-y-8">
         <p className="mb-8">
-          Find answers to the most commonly asked questions below. If you need further assistance, please don't hesitate to contact our support team.
+          Find answers to the most commonly asked questions below. If you need further assistance, please don&apos;t hesitate to contact our support team.
         </p>
 
         <div className="space-y-6">

@@ -24,7 +24,7 @@ export default function AboutPage() {
             Empowering Dental Professionals
           </h1>
           <p className="text-lg text-[#5D4037] max-w-2xl mx-auto leading-relaxed mb-8">
-            Thaarwin Enterprises is India's most trusted marketplace for dental supplies, equipment, and materials. 
+            Thaarwin Enterprises is India&apos;s most trusted marketplace for dental supplies, equipment, and materials. 
             We bridge the gap between world-class manufacturers and clinics, ensuring you get genuine products at the best prices.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-[#D7CEC3]/50">

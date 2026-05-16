@@ -144,7 +144,7 @@ export default function LoginPage() {
         </div>
 
         <p className="text-center text-xs text-[#5D4037] mt-4">
-          {isLogin ? "Don't have an account? " : "Already have an account? "}
+          {isLogin ? "Don&apos;t have an account? " : "Already have an account? "}
           <button onClick={() => setIsLogin(!isLogin)} className="text-[#1B5E20] hover:text-[#81C784] font-medium">
             {isLogin ? "Sign Up" : "Login"}
           </button>

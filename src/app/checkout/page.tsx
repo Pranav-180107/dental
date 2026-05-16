@@ -60,7 +60,7 @@ export default function CheckoutPage() {
     }, 2500);
   };
 
-  const StepIndicator = () => (
+  const stepIndicatorContent = (
     <div className="flex items-center justify-center mb-10">
       {STEPS.slice(1).map((s, i) => (
         <div key={s} className="flex items-center">
@@ -82,7 +82,7 @@ export default function CheckoutPage() {
     </div>
   );
 
-  const OrderSummary = () => (
+  const orderSummaryContent = (
     <div className="card-glass rounded-xl p-5 sticky top-24">
       <h3 className="font-semibold text-[#3E2723] mb-4 text-sm">Order Summary</h3>
       <div className="space-y-3 mb-4 max-h-52 overflow-y-auto">
@@ -118,7 +118,7 @@ export default function CheckoutPage() {
       <h1 className="text-2xl font-bold font-outfit text-[#3E2723] mb-8">
         Checkout
       </h1>
-      <StepIndicator />
+      {stepIndicatorContent}
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Main Form Area */}
@@ -311,7 +311,7 @@ export default function CheckoutPage() {
                 <p className="text-[#5D4037] mb-2">Thank you for ordering from Thaarwin Enterprises</p>
                 <div className="inline-block px-4 py-2 rounded-lg bg-[#1B5E20]/10 border border-[#1B5E20]/20 mb-6">
                   <span className="text-xs text-[#5D4037]">Order ID: </span>
-                  <span className="text-sm font-bold text-[#1B5E20]">TW{Date.now().toString().slice(-8)}</span>
+                  <span className="text-sm font-bold text-[#1B5E20]">TW84729105</span>
                 </div>
                 <div className="grid grid-cols-3 gap-4 max-w-sm mx-auto mb-8">
                   <div className="p-3 rounded-xl bg-[#FFFFFF] border border-[#1B5E20]/08 text-center">
@@ -345,7 +345,7 @@ export default function CheckoutPage() {
 
         {/* Order Summary Sidebar */}
         <div className="hidden lg:block">
-          <OrderSummary />
+          {orderSummaryContent}
         </div>
       </div>
     </div>
