@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
           <p className="font-semibold text-[#3E2723]">Thaarwin Enterprises</p>
           <p>123 Dental Hub, Medical District, New Delhi, India 110001</p>
           <p>Email: support@thaarwin.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Phone: +91 98942 55884</p>
         </div>
       </div>
     </PolicyLayout>

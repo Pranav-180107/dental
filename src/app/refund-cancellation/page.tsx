@@ -38,7 +38,7 @@ export default function RefundCancellationPage() {
         <div className="bg-[#FAF6ED] p-4 rounded-lg mt-4 border border-[#D7CEC3]">
           <p className="font-semibold text-[#3E2723]">Thaarwin Enterprises Support</p>
           <p>Email: returns@thaarwin.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Phone: +91 98942 55884</p>
         </div>
       </div>
     </PolicyLayout>

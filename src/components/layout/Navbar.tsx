@@ -42,7 +42,7 @@ export function Navbar() {
         <span className="flex items-center justify-center gap-6">
           <span className="flex items-center gap-1.5"><Truck className="h-3 w-3 text-[#1B5E20]" /> Free Shipping on orders above ₹5000</span>
           <span className="hidden sm:flex items-center gap-1.5"><Shield className="h-3 w-3 text-[#1B5E20]" /> 100% Genuine Products</span>
-          <span className="hidden md:flex items-center gap-1.5"><Phone className="h-3 w-3 text-[#1B5E20]" /> +91 98765 43210</span>
+          <span className="hidden md:flex items-center gap-1.5"><Phone className="h-3 w-3 text-[#1B5E20]" /> +91 98942 55884</span>
         </span>
       </div>
 

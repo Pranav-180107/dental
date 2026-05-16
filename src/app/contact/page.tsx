@@ -40,7 +40,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-[#3E2723] mb-1">Phone</h3>
-                  <p className="text-[#5D4037]">+91 98765 43210</p>
+                  <p className="text-[#5D4037]">+91 98942 55884</p>
                   <p className="text-xs text-[#81C784] mt-1">Mon-Sat, 9am to 6pm</p>
                 </div>
               </div>

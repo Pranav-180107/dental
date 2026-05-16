@@ -18,7 +18,7 @@ export default function ReturnsPolicyPage() {
         </p>
         <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#3E2723]">How to Initiate a Return</h2>
         <p className="mb-4">
-          Please contact our support team at support@thaarwin.com or call us at +91 98765 43210 with your order details to initiate a return request. Our team will guide you through the process.
+          Please contact our support team at support@thaarwin.com or call us at +91 98942 55884 with your order details to initiate a return request. Our team will guide you through the process.
         </p>
       </div>
     </div>
