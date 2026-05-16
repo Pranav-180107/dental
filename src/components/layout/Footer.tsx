@@ -13,11 +13,14 @@ const FOOTER_LINKS = {
   ],
   "Customer Service": [
     { label: "Track Your Order", href: "/track-order" },
-    { label: "Return Policy", href: "/return-exchange" },
+    { label: "Return & Exchange", href: "/return-exchange" },
     { label: "Shipping & Delivery", href: "/shipping-policy" },
     { label: "FAQs", href: "/faq" },
     { label: "Bulk/Dealer Inquiry", href: "/bulk-order" },
     { label: "Wishlist", href: "/wishlist" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms-and-conditions" },
+    { label: "Refund & Cancellation", href: "/refund-cancellation" },
   ],
 };
 
