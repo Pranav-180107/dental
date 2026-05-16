@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Check, MapPin, CreditCard, Truck, ChevronRight, Lock, Smartphone, Wallet, Building2, Banknote, Zap } from "lucide-react";
+import { Check, MapPin, CreditCard, Truck, ChevronRight, Lock, Smartphone, Wallet, Building2, Banknote, Zap, ShieldCheck, Phone } from "lucide-react";
+import { BUSINESS } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { useCartStore } from "@/lib/store";
 
@@ -109,6 +110,24 @@ export default function CheckoutPage() {
       </div>
       <div className="mt-4 flex items-center gap-1.5 text-[10px] text-[#5D4037]">
         <Lock className="h-3 w-3 text-[#1B5E20]" /> Secured by SSL encryption
+      </div>
+      {/* Business / GST Info */}
+      <div className="mt-4 pt-4 border-t border-[#1B5E20]/10 space-y-2">
+        <div className="flex items-center gap-1.5 text-[10px] text-[#1B5E20] font-semibold">
+          <ShieldCheck className="h-3 w-3" /> GST Registered Business
+        </div>
+        <div className="flex items-center gap-1.5 text-[10px] text-[#5D4037]">
+          <Building2 className="h-3 w-3 text-[#1B5E20] shrink-0" />
+          <span className="font-mono font-semibold text-[#3E2723]">GSTIN: {BUSINESS.gstin}</span>
+        </div>
+        <div className="flex items-start gap-1.5 text-[10px] text-[#5D4037]">
+          <MapPin className="h-3 w-3 text-[#1B5E20] shrink-0 mt-0.5" />
+          <span>{BUSINESS.address}</span>
+        </div>
+        <a href={BUSINESS.phoneHref} className="flex items-center gap-1.5 text-[10px] text-[#5D4037] hover:text-[#1B5E20] transition-colors">
+          <Phone className="h-3 w-3 text-[#1B5E20] shrink-0" />
+          <span className="font-medium">{BUSINESS.phone}</span>
+        </a>
       </div>
     </div>
   );
